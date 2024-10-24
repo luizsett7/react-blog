@@ -1,1 +1,1 @@
-# <h1>A Blog with React and Firebase</h1>
+# <h1>A Blog using React and Firebase</h1>
