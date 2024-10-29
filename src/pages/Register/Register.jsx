@@ -1,6 +1,5 @@
-import { useAuthentication } from "../../hooks/useAuthentication";
 import styles from "./Register.module.css";
-
+import { useAuthentication } from "../../hooks/useAuthentication";
 import { useState, useEffect } from "react";
 
 const Register = () => {
@@ -89,7 +88,7 @@ const Register = () => {
         {!loading && <button className="btn">Register</button>}
         {loading && (
           <button className="btn" disabled>
-            Aguarde...
+            Wait...
           </button>
         )}
         {error && <p className="error">{error}</p>}
